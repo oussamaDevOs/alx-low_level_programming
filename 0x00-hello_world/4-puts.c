@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-int main(void) /*test*/
+/**
+* main - Entry point
+*
+* return: always 0
+*/
+int main(void)
 {
-/*test*/
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
