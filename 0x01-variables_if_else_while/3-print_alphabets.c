@@ -15,11 +15,11 @@ while (r <= 'z')
 putchar(r);
 r++;
 }
-char U = 'A';
-while (U <= 'Z')
+char Upper = 'A';
+while (Upper <= 'Z')
 {
-putchar(U);
-U++;
+putchar(Upper);
+Upper++;
 }
 putchar('\n');
 
