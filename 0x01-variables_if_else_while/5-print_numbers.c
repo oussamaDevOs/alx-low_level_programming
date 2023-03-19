@@ -4,15 +4,16 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
-for (int r = 0; r < 10; r++)
+int i;
+for (i = 0; i < 10; i++)
 {
-printf("%d", r);
+printf("%d ", i);
 }
-putchar('\n');
-
+printf("\n");
 return (0);
 }
+
