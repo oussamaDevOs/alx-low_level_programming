@@ -8,12 +8,18 @@
 
 int main(void)
 {
-char r = 'z';
+char r = 'a';
 
-while (r >= 'a')
+while (r <= 'z')
 {
 putchar(r);
-r--;
+r++;
+}
+char U = 'A';
+while (U <= 'Z')
+{
+putchar(U);
+U++;
 }
 putchar('\n');
 
