@@ -19,7 +19,6 @@ putchar(j < n - 1 ? ',' : '\n');
 putchar(j < n - 1 ? ' ' : '\0');
 }
 }
-putchar('\n');
 return (0);
 }
 
