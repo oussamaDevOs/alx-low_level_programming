@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
  * main - Entry point
  *
@@ -27,4 +26,3 @@ putchar('\n');
 
 return (0);
 }
-
