@@ -8,14 +8,16 @@
 
 int main(void)
 {
-char r = 'a';
+char r, Upper;
+
+r = 'a';
 while (r <= 'z')
 {
 putchar(r);
 r++;
 }
 
-char Upper = 'A';
+Upper = 'A';
 while (Upper <= 'Z')
 {
 putchar(Upper);
