@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - prints alphabets obviously
  *
- * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -12,10 +11,10 @@ int main(void)
 
 	while (l <= 'z')
 {
-	putchar(l);
+	_putchar(l);
 	l++;
 }
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
 
