@@ -5,7 +5,7 @@
  *
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char l = 'a';
 
