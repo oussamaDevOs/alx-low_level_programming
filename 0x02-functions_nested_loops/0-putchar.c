@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char str[] = "_putchari";
+	char str[] = "_putchari\n";
 
 	int ch;
 
