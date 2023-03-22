@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * print alphabets 10 times
  * Return: Always 0 (Success)
  */
 
