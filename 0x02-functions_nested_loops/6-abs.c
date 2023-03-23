@@ -1,7 +1,12 @@
 #include "main.h"
 
 /**
- * _abs - the value absolute of a numbeer
+ * _abs - funvtion that calculates the value absolute of a numbeer
+ * 
+ * @n: inter from input
+ *
+ * Return: always abs(n)
+ *
  */
 
 int _abs(int n)
