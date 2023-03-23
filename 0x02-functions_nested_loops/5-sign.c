@@ -2,9 +2,9 @@
 
 /**
  *
- * _sign - finds and prints the sign of a given number
+ * print _sign - finds and prints the sign of a given number
  *
- * @n: number given 
+ * @n: number given
  *
  * return: return 1 if positvie return -& if negative otherwise always 0
  */
