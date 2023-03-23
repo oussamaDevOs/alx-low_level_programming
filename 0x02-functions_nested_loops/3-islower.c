@@ -2,6 +2,9 @@
 /**
  * _islower - detects lowercase letters
  *
+ *@c: checks input function Based on ASCII
+ *
+ *Return: 1 for letters and always 0 for else
  */
 
 int _islower(int c)
