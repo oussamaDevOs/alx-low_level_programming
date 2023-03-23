@@ -4,12 +4,13 @@
  * _abs - the value absolute of a numbeer
  */
 
-int _abs(int d)
-
-	if (d < 0)
+int _abs(int n)
+{
+	if (n < 0)
 	{
-		d = (-1) * d;
-	return (d);
+		n = (-1) * n;
+	return (n);
 	}
-	else if (d >= 0)
-	return(d);
+	else if ( >= 0)
+	return(n);
+}
