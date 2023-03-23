@@ -5,7 +5,7 @@
  */
 
 int _abs(int d)
-{
+
 	if (d < 0)
 	{
 		d = (-1) * d;
@@ -13,4 +13,3 @@ int _abs(int d)
 	}
 	else if (d >= 0)
 	return(d);
-}
