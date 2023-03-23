@@ -3,6 +3,9 @@
 /**
  * _isalpha - detects alpha characters
  *
+ * @c: input charcter  based on ASCII 
+ *
+ * Return: 1 for letters and 0 for else.
  */
 
 int _isalpha(int c)
