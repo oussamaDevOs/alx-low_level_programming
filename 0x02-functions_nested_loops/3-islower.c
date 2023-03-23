@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _islower - detects lowercase letters
+ * _islower - detects lowercase letters
  *
  */
 
