@@ -23,7 +23,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		print_sign(48);
+		print_sign(98);
 		return (0);
 	}
 }
