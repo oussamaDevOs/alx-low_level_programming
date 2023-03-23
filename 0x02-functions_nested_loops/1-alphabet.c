@@ -6,12 +6,12 @@
  */
 
 void print_alphabet(void)
-char = l = 'a';
-
-	while (l <= 'z')
+int low;
 {
-	_putchar(l);
-	l++;
+	for (low = 'a'; low <= 'z'; low++)
+{
+	putchar (low);
+	low++;
 }
 	_putchar('\n');
 
