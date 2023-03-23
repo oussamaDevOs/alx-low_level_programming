@@ -3,7 +3,7 @@
 /**
  * _isalpha - detects alpha characters
  *
- * @c: input checks input of function 
+ * @c: input checks input of function
  *
  * Return: Return 1 for letters and always 0 for else.
  */
