@@ -22,10 +22,9 @@ void more_numbers(void)
 				putchar(1 + 48);
 				num = digit % 10;
 			}
-			else
-			{
-				putchar(digit + 48);
-			}
+			
+			putchar(digit + 48);
+			
 		}
 		putchar('\n');
 	}
