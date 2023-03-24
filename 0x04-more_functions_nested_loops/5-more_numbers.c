@@ -19,8 +19,7 @@ void print_numbers(void)
 			}
 			else
 			{
-				putchar(1);
-				putchar(digit + 48);
+				putchar('1' + digit);
 			}
 			putchar('\n');
 }
