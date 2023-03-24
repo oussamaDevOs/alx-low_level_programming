@@ -17,7 +17,7 @@ void more_numbers(void)
 		for (digit = 0; digit  <= 14; digit++)
 		{
 			num = digit;
-			if (num >= 10)
+			if (num > 9)
 			{
 				putchar(1 + 48);
 				num = digit % 10;
