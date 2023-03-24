@@ -19,7 +19,7 @@ void print_numbers(void)
 			}
 			else
 			{
-				putchar('1' + digit);
+				putchar('1%d +48', digit);
 			}
 			putchar('\n');
 }
