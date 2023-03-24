@@ -10,16 +10,23 @@ void print_numbers(void)
 {
 	int digit;
 	int line;
+	int num;
 
 	for (line = 0; line < 10; line++)
+	{
 		for (digit = 0; digit  <= 14; digit++)
-			if (digit < 10)
+		{
+			num = digit;
+			if (num >= 10)
 			{
-				putchar(digit + 48);
+				putchar(1 + 48);
+				num = digit % 10;
 			}
 			else
 			{
-				putchar('1%d +48', digit);
+				putchar(digit + 48);
 			}
-			putchar('\n');
+		}
+		putchar('\n');
+	}
 }
