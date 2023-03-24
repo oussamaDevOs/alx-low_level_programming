@@ -7,10 +7,9 @@
 
 void print_diagonal(int n)
 {
-	int space;
-	int line;
+	int space, line;
 
-	if (n == 0)
+	if (n <= 0)
 		putchar('\n');
 	else
 	{
