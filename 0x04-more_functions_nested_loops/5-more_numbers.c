@@ -6,13 +6,13 @@
  *
  */
 
-void print_numbers(void)
+void print_more_numbers(void)
 {
 	int digit;
 	int line;
 	int num;
 
-	for (line = 0; line < 10; line++)
+	for (line = 0; line <= 10; line++)
 	{
 		for (digit = 0; digit  <= 14; digit++)
 		{
