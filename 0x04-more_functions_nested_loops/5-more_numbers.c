@@ -6,7 +6,7 @@
  *
  */
 
-void print_more_numbers(void)
+void more_numbers(void)
 {
 	int digit;
 	int line;
