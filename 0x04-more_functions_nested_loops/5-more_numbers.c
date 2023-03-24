@@ -10,9 +10,8 @@ void print_numbers(void)
 {
 	int digit;
 	int line;
-	int sym;
 
-	for (line = 0; line <= 10; line++)
+	for (line = 0; line < 10; line++)
 		for (digit = 0; digit  <= 14; digit++)
 			if (digit < 10)
 			{
