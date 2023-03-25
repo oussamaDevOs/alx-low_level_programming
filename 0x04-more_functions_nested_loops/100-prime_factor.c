@@ -11,10 +11,10 @@ int main(void)
 		if (num % factor == 0)
 		{
 			largest_factor = factor;
-			num != factor;
+			num /= factor;
 			while (num % factor == 0)
 			{
-			num != factor;
+				num /= factor;
 			}
 		}
 		factor++;
