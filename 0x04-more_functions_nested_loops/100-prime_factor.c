@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * prime_factor - math shit
+ */
+
 int main(void)
 {
 	long int num = 612852475143;
