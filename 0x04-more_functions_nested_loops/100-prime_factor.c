@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * prime_factor - math shit
+ * largest_prime_factor - math shit
+ * @num: targeer number
  */
 
 int main(void)
