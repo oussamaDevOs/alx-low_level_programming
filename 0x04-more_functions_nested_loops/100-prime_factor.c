@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * prime_factor - math 
- * @largest_prime_factor: math shit
+ * 
+ * main - math 
  * @num: target number
- * @factor: basic factor
- *
+ * Return: always 0
  */
 
 int main(void)
