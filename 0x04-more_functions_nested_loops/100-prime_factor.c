@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/**
- * 
+/** 
  * main - math 
  * @num: target number
  * Return: always 0
