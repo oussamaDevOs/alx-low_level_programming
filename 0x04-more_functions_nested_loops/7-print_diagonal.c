@@ -1,25 +1,24 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints spaces diagnoacally
+ * print_diagonal - duh
  * @n: integer
  */
 
 void print_diagonal(int n)
 {
-	int space, postn;
+	int postn, space;
 
 	if (n <= 0)
-		putchar('\n');
-	else
 	{
-		for (postn = 1; postn <= n; postn++)
-		{
-			for (space = 1; space <= postn; space++)
-				putchar(' ');
-			putchar(92); /* \ in ASCII*/
-			putchar('\n');
-		}
+	putchar('\n');
+	}
+
+	for (postn = 1; postn <= n; postn++)
+	{
+		for (space = 1; space <= postn - 1; space++)
+			putchar(' ');
+		putchar(92);
+		putchar('\n');
 	}
 }
-
