@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /** 
- * main - math 
- * @num: target number
- * Return: always 0
+ * main - check the code.
+ *
+ * Return: always 0.
  */
 
 int main(void)
