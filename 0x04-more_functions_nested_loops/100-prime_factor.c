@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * largest_prime_factor - math shit
- * @num: targeer number
+ * prime_factor - math 
+ * @largest_prime_factor: math shit
+ * @num: target number
+ * @factor: basic factor
+ *
  */
 
 int main(void)
