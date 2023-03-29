@@ -1,4 +1,5 @@
 #include "main.h"
+#include<string.h>
 
 /**
  * print_rev - prints in reverse
@@ -7,7 +8,9 @@
 
 void print_rev(char *s)
 {
-	while (*s != 0)
+	size_t length = strlen(s);
+
+	while (*s >= length)
 	{
 		putchar(*s);
 		*s--;
