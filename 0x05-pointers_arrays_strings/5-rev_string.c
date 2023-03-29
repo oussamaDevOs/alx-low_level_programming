@@ -8,10 +8,10 @@
 
 void rev_string(char *s)
 {
-	size_t length = strlen(s);
+	size_t l = strlen(s);
 	int i;
 
-	for (i = 0; i <= length / 2; ++i)
+	for (i = 0; i < l / 2; ++i)
 	{
 	char temp = s[i];
 
