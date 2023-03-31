@@ -3,7 +3,7 @@
 /**
  * string_toupper - uppercase it
  * @str: string
- * return: str
+ * Return: string
  */
 char *string_toupper(char *str)
 
