@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _leet - encode
@@ -7,32 +8,44 @@
 
 char *leet(char *str)
 {
-	static char table[] = {
-	['a'] = '4',
-	['A'] = '4',
-	['e'] = '3',
-	['E'] = '3',
-	['o'] = '0',
-	['O'] = '0',
-	['t'] = '7',
-	['T'] = '7',
-	['l'] = '1',
-	['L'] = '1',
-	};
+	char *result = malloc(strlen(str) + 1);
 
+	if (result == NULL)
+	{
+	printf("Error: failed to allocate memory\n");
+	exit(1);
+	}
+	char *c;
 	int i, j;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0, j = 0; str[i] != '\0'; i++, j++)
 	{
-	for (j = 0; j < sizeof(table); j++)
+	c = &result[j];
+	if (str[i] == 'a' || str[i] == 'A')
 	{
-			if (table[j] != '\0' && str[i] == j)
-			{
-				str[i] = table[j];
-				break;
-			}
-		}
+	*c = '4';
 	}
-	return str;
+	else if (str[i] == 'e' || str[i] == 'E')
+	{
+		*c = '3';
+	}
+	else if (str[i] == 'o' || str[i] == 'O')
+	{
+		*c = '0';
+	}
+	else if (str[i] == 't' || str[i] == 'T')
+	{
+		*c = '7';
+	}
+	else if (str[i] == 'l' || str[i] == 'L')
+	{
+		*c = '1';
+	}
+	else
+	{
+		*c = str[i];	}
+	}
+	result[j] = '\0';
+	return (resul)t;
 }
 
