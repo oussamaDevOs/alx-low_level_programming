@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat *.c > liball.a
+cat *.c >> liball.a
