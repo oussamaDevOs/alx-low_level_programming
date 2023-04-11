@@ -1,3 +1,4 @@
 #!/bin/bash
 
-cat *.c >> liball.a
+gcc -c *.c
+ar rcs liball.a *.o
