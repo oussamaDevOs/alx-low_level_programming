@@ -9,24 +9,24 @@
  */
 char *_strdup(char *str)
 {
-  char *dup_str;
-  unsigned int len = 0;
-  unsigned int i;
+	char *dup_str;
+	unsigned int len = 0;
+	unsigned int i;
 
-  if (str == NULL)
-    return (NULL);
+	if (str == NULL)
+		return (NULL);
 
-  while (str[len] != '\0')
-    len++;
+	while (str[len] != '\0')
+		len++;
 
-  dup_str = malloc(sizeof(char) * (len + 1));
+	dup_str = malloc(sizeof(char) * (len + 1));
 
-  if (dup_str == NULL)
-    return (NULL);
+	if (dup_str == NULL)
+		return (NULL);
 
-  for (i = 0; i <= len; i++)
-    dup_str[i] = str[i];
+	for (i = 0; i <= len; i++)
+		dup_str[i] = str[i];
 
-  return (dup_str);
+	return (dup_str);
 }
 
