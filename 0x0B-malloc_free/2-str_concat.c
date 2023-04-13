@@ -1,32 +1,39 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
- * _strdup - returns a pointer to a newly allocated space
- * @str: the string to duplicate
- * Return: depends on conditions
+ * str_concat - Concatenates two strings
+ * @s1: The first string to concatenate
+ * @s2: The second string to concatenate
+ * Return: A pointer to a newly allocated space
  */
-char *_strdup(char *str)
+char *str_concat(char *s1, char *s2)
 {
-	char *dup_str;
-	unsigned int len = 0;
-	unsigned int i;
+  char *concat;
+  int len1 = 0, len2 = 0, i, j;
 
-	if (str == NULL)
-		return (NULL);
+  if (s1 == NULL)
+    s1 = "";
+  if (s2 == NULL)
+    s2 = "";
 
-	while (str[len] != '\0')
-		len++;
+  while (s1[len1] != '\0')
+    len1++;
 
-	dup_str = malloc(sizeof(char) * (len + 1));
+  while (s2[len2] != '\0')
+    len2++;
 
-	if (dup_str == NULL)
-		return (NULL);
+  concat = malloc((len1 + len2 + 1) * sizeof(char));
+  if (concat == NULL)
+    return (NULL);
 
-	for (i = 0; i <= len; i++)
-		dup_str[i] = str[i];
+  for (i = 0; s1[i] != '\0'; i++)
+    concat[i] = s1[i];
 
-	return (dup_str);
+  for (j = 0; s2[j] != '\0'; j++)
+    concat[i + j] = s2[j];
+
+  concat[i + j] = '\0';
+
+  return (concat);
 }
-
