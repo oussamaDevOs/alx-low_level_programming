@@ -9,6 +9,6 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s is the name of the program", argv[0]);
+	printf("%s", argv[0]);
 	return (0);
 }
