@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * _malloc_checked - checks for allocation
+ * malloc_checked - checks for allocation
  * @b: integer
- * Rerturn: 98
+ * Return: pointer to the allocated memory
  */
 
 void *malloc_checked(unsigned int b)
