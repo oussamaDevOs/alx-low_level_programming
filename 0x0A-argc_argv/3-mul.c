@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	if (scanf("%d", &a) && scanf("%d", &b))
 	{
 		printf("%d\n", r = a * b);
-		return (r);
+		return (0);
 	}
 	else 
 	{
