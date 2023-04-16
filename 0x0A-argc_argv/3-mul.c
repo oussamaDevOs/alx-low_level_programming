@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int b;
 	int r;
 
-	if (argc < 3)
+	if (argc >= 3)
 	{
 		printf("%d\n", r = a * b);
 		return (0);
