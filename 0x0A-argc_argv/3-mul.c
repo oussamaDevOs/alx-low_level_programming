@@ -1,8 +1,11 @@
 #include "main.h"
 
+/**
+ * main - entry point
+ * Return: always 0
+ */
 
-
-int main(int argc, char *argv[])
+int main(void)
 {
 	int a;
 	int b;
@@ -13,7 +16,7 @@ int main(int argc, char *argv[])
 		printf("%d\n", r = a * b);
 		return (0);
 	}
-	else 
+	else
 	{
 		printf("Error\n");
 		return (1);
