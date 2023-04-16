@@ -14,7 +14,6 @@ int main(void)
 	if (scanf("%d", &a) && scanf("%d", &b))
 	{
 		printf("%d\n", r = a * b);
-		return (0);
 	}
 	else
 	{
