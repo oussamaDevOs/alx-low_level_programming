@@ -2,16 +2,18 @@
 
 /**
  * main - entry point
+ * @argc: counter
+ * @argv: vector
  * Return: always 0
  */
 
-int main(void)
+int main(int argc, char *argv[])
 {
 	int a;
 	int b;
 	int r;
 
-	if (scanf("%d", &a) && scanf("%d", &b))
+	if (argc < 3)
 	{
 		printf("%d\n", r = a * b);
 		return (0);
