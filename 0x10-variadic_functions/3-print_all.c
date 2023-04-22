@@ -1,17 +1,17 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 
-
 void print_all(const char * const format, ...)
 {
-    va_list args;
-    va_start(args, format);
+	const char *format_ptr;
+	format_ptr = format;
+	char c;
+	int i;
+	float f;
+	char *s;
 
-    const char *format_ptr = format;
-    char c;
-    int i;
-    float f;
-    char *s;
+	va_list args;
+	va_start(args, format);
 
     while (*format_ptr != '\0')
     {
