@@ -1,26 +1,30 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 
+/**
+ * print_numbers - Prints a variable number of integers, separated
+ * @separator: The string to print between the integers
+ * @n: The number of integers to print
+ * Return: void
+ */
 
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-    va_list args;
-    unsigned int i;
-    
-    va_start(args, n);
+	va_list args;
+	unsigned int i;
 
-    for (i = 0; i < n; i++)
-    {
-        printf("%d", va_arg(args, int));
+	va_start(args, n);
 
-        if (separator != NULL && i < n - 1)
-            printf("%s", separator);
-    }
+	for (i = 0; i < n; i++)
+	{
+		printf("%d", va_arg(args, int));
 
-    va_end(args);
+		if (separator != NULL && i < n - 1)
+			printf("%s", separator);
+	}
 
-    printf("\n");
+	va_end(args);
+
+	printf("\n");
 }
-
-
