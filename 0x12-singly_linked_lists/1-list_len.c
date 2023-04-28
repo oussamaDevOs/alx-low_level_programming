@@ -3,6 +3,7 @@
 /**
  * list_len - checks the number of elements
  * @h: list
+ * Return: number of elements
  */
 
 size_t list_len(const list_t *h)
