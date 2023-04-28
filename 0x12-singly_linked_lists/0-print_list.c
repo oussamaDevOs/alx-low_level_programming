@@ -6,15 +6,6 @@
  * Return: number of nodes
  */
 
-
-int _strlen(char *str)
-{
-	if (!str)
-	{
-		printf("[0] (nil)");
-		return (0);
-	}
-}
 size_t print_list(const list_t *h)
 {
 	int i = 0;
@@ -26,4 +17,18 @@ size_t print_list(const list_t *h)
 	h = h->next;
 	}
 	return (i);
+}
+
+/**
+ * _strlen - checks the str
+ * str: a node in h
+ */
+
+int _strlen(char *str)
+{
+        if (!str)
+        {
+                printf("[0] (nil)");
+                return (0);
+        }
 }
