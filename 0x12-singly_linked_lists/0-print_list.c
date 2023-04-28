@@ -2,7 +2,7 @@
 
 /**
  * _strlen - checks the str
- * @st: a node in h
+ * @str a node in h
  * Return: depends
  */
 
