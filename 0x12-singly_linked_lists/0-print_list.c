@@ -2,19 +2,19 @@
 
 /**
  * _strlen - checks the str
- * @str: a node in h
+ * @st: a node in h
  * Return: depends
  */
 
-int _strlen(char *str)
+int _strlen(char *st)
 {
 	int i = 0;
 
-	if (!str)
+	if (!st)
 	{
 		return (0);
 	}
-	while (*str++)
+	while (*st++)
 		i++;
 	return (i);
 }
