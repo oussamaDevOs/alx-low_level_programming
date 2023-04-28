@@ -6,16 +6,15 @@
  * Return: depends
  */
 
-int _strlen(char *st)
+int _strlen(char *str)
 {
 	int i = 0;
 
-	if (!st)
+	if (!str)
 	{
-		printf("[0] (nil)");
 		return (0);
 	}
-	while (*st++)
+	while (*str++)
 		i++;
 	return (i);
 }
